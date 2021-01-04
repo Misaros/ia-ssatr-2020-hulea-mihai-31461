@@ -1,0 +1,10 @@
+
+D
+java:S2189
+""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8½“”Ðì.
+g
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(õÃìª8½“”Ðì.
+0
+java:S1220""Move this file to a named package.
+§
+java:S1130"„Remove the declaration of thrown exception 'javax.naming.OperationNotSupportedException', as it cannot be thrown from method's body.(£È½öûÿÿÿÿ8Ì•ÝÐì.

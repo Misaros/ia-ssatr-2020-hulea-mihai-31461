@@ -62,6 +62,11 @@ public class TestTrackJFrame extends javax.swing.JFrame {
         jLabel3.setText("Type");
 
         comboCarType.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Electric car", "Diesel car", "OttoCar" }));
+        comboCarType.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                comboCarTypeActionPerformed(evt);
+            }
+        });
 
         jLabel4.setText("Numar");
 
@@ -84,20 +89,19 @@ public class TestTrackJFrame extends javax.swing.JFrame {
                         .addComponent(jLabel1)
                         .addGap(21, 21, 21)
                         .addComponent(testFieldName))
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel2)
-                                .addComponent(jLabel3))
-                            .addGap(18, 18, 18)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(buttonAddCar)
-                                .addComponent(testFieldSpeed)
-                                .addComponent(comboCarType, 0, 167, Short.MAX_VALUE)))
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(jLabel4)
-                            .addGap(18, 18, 18)
-                            .addComponent(testFieldSpeed1))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(buttonAddCar)
+                            .addComponent(testFieldSpeed)
+                            .addComponent(comboCarType, 0, 167, Short.MAX_VALUE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel4)
+                        .addGap(18, 18, 18)
+                        .addComponent(testFieldSpeed1)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -215,6 +219,10 @@ public class TestTrackJFrame extends javax.swing.JFrame {
     private void testFieldSpeed1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_testFieldSpeed1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_testFieldSpeed1ActionPerformed
+
+    private void comboCarTypeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboCarTypeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_comboCarTypeActionPerformed
 
     /**
      * @param args the command line arguments
