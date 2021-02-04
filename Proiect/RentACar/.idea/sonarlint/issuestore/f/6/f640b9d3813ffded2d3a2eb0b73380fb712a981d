@@ -1,0 +1,15 @@
+
+h
+java:S1301*"KReplace this "switch" statement by "if" statements to increase readability.(šÅ„°8ƒì©Þö.
+O
+java:S11990"-Extract this nested code block into a method.(Î—­Šþÿÿÿÿ8±ö­Þö.
+X	java:S125C"<This block of commented-out lines of code should be removed.(ßûÙ¼8Þ»‘Ýö.
+X	java:S125<"<This block of commented-out lines of code should be removed.(©›Žä8¤Ö×Ýö.
+D
+java:S2189 ""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8ÅºÝö.
+F
+java:S1481(")Remove this unused "line" local variable.(ëŠØµ8ÅºÝö.
+g
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(ïú¿Ú8ÅºÝö.
+O
+java:S1199+"-Extract this nested code block into a method.(Ä–Žêûÿÿÿÿ8ø¦ªÞö.
