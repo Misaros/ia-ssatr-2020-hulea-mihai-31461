@@ -37,7 +37,7 @@ public class Main {
 
             while (true) {
                 System.out.println("Astept conexiune de la client...");
-                Socket s = ss.accept(); //metoda blocanta
+                Socket s = ss.accept(); 
                 System.out.println("Clientul s-a conectat!");
                 //......
                 BufferedReader fluxIn = new BufferedReader(new InputStreamReader(s.getInputStream()));
